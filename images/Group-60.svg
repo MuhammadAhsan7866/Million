@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="99" height="103" viewBox="0 0 99 103">
+    <g transform="translate(-1388.041 -2419.564)">
+        <rect width="94.46" height="94.46" fill="#20719e" rx="20.762" transform="translate(1390.163 2425.037)"/>
+        <g fill="#fff" font-family="TitilliumWeb-Bold, Titillium Web" font-weight="700">
+            <text font-size="55.718px" transform="translate(1388.041 2419.564)">
+                <tspan x="18.846" y="63">Pa</tspan>
+            </text>
+            <text font-size="16px" transform="translate(1388.041 2483.554)">
+                <tspan x="27.168" y="18">Pamm</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
