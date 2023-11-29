@@ -12,6 +12,9 @@
 </head>
 
 <body class="home blog wp-embed-responsive">
+  <!-- Back to top button -->
+  <a id="button_top"></a>
+
   <header class="BlackHeader">
     <div class="container d-lg-block d-none first-head-row">
       <div class="row">
@@ -321,7 +324,7 @@
 
                 <div class="animatex_text">
                   <h2> Check Live Trading Activity </h2>
-                 
+
                 </div>
 
               </div>
@@ -332,11 +335,11 @@
                     <ul>
                       <li> <strong>ServerName:</strong>Xclusive-Live</li>
                       <li><strong>Login:</strong> 74223548</li>
-                   
-                      
+
+
                     </ul>
                     <ul>
-                      
+
                       <li> <strong> Account Title:</strong> MillionNext</li>
                       <li> <strong>Password: </strong>Great1984$</li>
                     </ul>
@@ -483,6 +486,7 @@
           </div>
         </ul>
         <img src="/images/about_s4_lines.png" alt="" class="liness">
+        <img src="images/mapani.png" alt="mapani" class="wves">
       </div>
 
     </section>
@@ -656,7 +660,7 @@
                 improving its strategies over time. This adaptive nature allows AI-powered trading systems to stay ahead
                 of market trends and adjust to new information, contributing to more consistent and profitable outcomes.
               </p>
-              
+
             </div>
             <div class="hand_image_col">
               <img src="images/handai.png" alt="">
@@ -665,10 +669,10 @@
 
         </div>
       </div>
-     <div class="top_live_widgets">
+      <div class="top_live_widgets">
 
 
-     </div>
+      </div>
       </div>
 
       </div>
@@ -725,7 +729,24 @@
       }
       document.body.addEventListener('DOMContentLoaded', openCity(event, 'London'));
     </script>
+   <script>
+    var btn = $('#button_top');
 
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
+
+
+   </script>
 </body>
 
 </html>
